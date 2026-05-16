@@ -1,0 +1,136 @@
+{
+  "designSystem": {
+    "displayName": "Monochromatic Noir",
+    "styleGuidelines": "## Brand & Style\n\nThis design system embodies the \"Silent Luxury\" movement, blending Korean minimalist sensibilities with high-street editorial aesthetics. The visual narrative is built on the tension between absolute black and crisp white, creating a \"Museum Gallery\" experience where the product is the sole protagonist. \n\nThe style is **Minimalist** but softened with **Organic Fluidity**. It prioritizes negative space and structural balance, now complemented by pill-shaped geometry. The goal is to evoke a sense of professional curation and everyday luxury, appealing to a demographic that values intentionality, soft architectural silhouettes, and monochromatic discipline. Every interface element must feel essential; the added roundness ensures the minimalism feels approachable and modern rather than cold.\n\n## Layout & Spacing\n\nThis design system employs a **Fixed Grid** philosophy to emulate the structured pages of a fashion lookbook. The layout uses a 12-column grid on desktop with wide 80px margins to frame the content. \n\nThe \"Spacious Layout\" is achieved through an aggressive vertical rhythm, using a 120px `section-gap` to allow imagery to breathe. On mobile, the grid collapses to a 2-column or 1-column view, with margins reduced to 20px, but the vertical breathing room remains a priority to prevent a \"cluttered\" e-commerce feel. Elements are aligned with mathematical precision to convey the \"Professional\" tone.\n\n## Elevation & Depth\n\nDepth is conveyed through **Low-contrast outlines** and **Tonal layers** rather than traditional shadows. This maintains a flat, modernist aesthetic.\n\n- **Surfaces:** Use tonal shifts to distinguish secondary containers from the primary white background.\n- **Borders:** Subtle 1px solid borders are used to define input fields and image containers. \n- **Active States:** Elevation is shown by color inversion (e.g., a white button turning black) rather than physical lifting.\n- **Imagery:** Depth is created by the photography itself—using high-quality editorial shots with soft lighting and natural shadows to provide the \"Tactile\" feel of the fabrics.\n\n## Components\n\n### Buttons\nPrimary buttons are solid black pill-shaped rectangles with white, uppercase Atkinson Hyperlegible Next text. They should have a full corner radius and include generous horizontal padding. Hover states should invert the colors (white background, black text, black 1px border).\n\n### Input Fields\nInputs follow a \"Minimalist\" style—a full 1px border with a high roundedness to match the system's pill-shaped philosophy. Focus states are indicated by the border thickness increasing or changing to absolute black. Labels sit above the field in uppercase Lexend `label-sm` typography.\n\n### Chips & Tags\nUsed for size or color selection, these are fully rounded pill shapes with a 1px border. The selected state is indicated by a solid black fill.\n\n### Cards\nProduct cards are image-heavy with rounded corners (rounded-lg) and no shadows. The typography sits below the image with significant padding. Use `body-md` for product names and a bolded `body-md` for pricing.\n\n### Navigation\nThe header should be transparent or solid white with a thin bottom divider. Links use Lexend `label-sm` with a persistent underline or color shift for the active state. Interactive elements like search bars should follow the pill-shaped shape language.",
+    "theme": {
+      "bodyFont": "INTER",
+      "bodyFontFamily": "Inter",
+      "colorMode": "LIGHT",
+      "colorVariant": "FIDELITY",
+      "customColor": "#000000",
+      "font": "ATKINSON_HYPERLEGIBLE_NEXT",
+      "headlineFont": "ATKINSON_HYPERLEGIBLE_NEXT",
+      "headlineFontFamily": "Atkinson Hyperlegible Next",
+      "labelFont": "LEXEND",
+      "labelFontFamily": "Lexend",
+      "namedColors": {
+        "background": "#f9f9f9",
+        "error": "#ba1a1a",
+        "error_container": "#ffdad6",
+        "inverse_on_surface": "#f0f1f1",
+        "inverse_primary": "#c6c6c6",
+        "inverse_surface": "#2f3131",
+        "on_background": "#1a1c1c",
+        "on_error": "#ffffff",
+        "on_error_container": "#93000a",
+        "on_primary": "#ffffff",
+        "on_primary_container": "#848484",
+        "on_primary_fixed": "#1b1b1b",
+        "on_primary_fixed_variant": "#474747",
+        "on_secondary": "#ffffff",
+        "on_secondary_container": "#636262",
+        "on_secondary_fixed": "#1c1b1b",
+        "on_secondary_fixed_variant": "#474746",
+        "on_surface": "#1a1c1c",
+        "on_surface_variant": "#4c4546",
+        "on_tertiary": "#ffffff",
+        "on_tertiary_container": "#848483",
+        "on_tertiary_fixed": "#1b1c1c",
+        "on_tertiary_fixed_variant": "#474747",
+        "outline": "#7e7576",
+        "outline_variant": "#cfc4c5",
+        "primary": "#000000",
+        "primary_container": "#1b1b1b",
+        "primary_fixed": "#e2e2e2",
+        "primary_fixed_dim": "#c6c6c6",
+        "secondary": "#5f5e5e",
+        "secondary_container": "#e2dfde",
+        "secondary_fixed": "#e5e2e1",
+        "secondary_fixed_dim": "#c8c6c5",
+        "surface": "#f9f9f9",
+        "surface_bright": "#f9f9f9",
+        "surface_container": "#eeeeee",
+        "surface_container_high": "#e8e8e8",
+        "surface_container_highest": "#e2e2e2",
+        "surface_container_low": "#f3f3f4",
+        "surface_container_lowest": "#ffffff",
+        "surface_dim": "#dadada",
+        "surface_tint": "#5e5e5e",
+        "surface_variant": "#e2e2e2",
+        "tertiary": "#000000",
+        "tertiary_container": "#1b1c1c",
+        "tertiary_fixed": "#e4e2e2",
+        "tertiary_fixed_dim": "#c8c6c6"
+      },
+      "overrideNeutralColor": "#ffffff",
+      "overridePrimaryColor": "#000000",
+      "overrideSecondaryColor": "#1a1a1a",
+      "overrideTertiaryColor": "#4a4a4a",
+      "roundness": "ROUND_FULL",
+      "spacing": {
+        "container-max": "1440px",
+        "edge-margin-desktop": "80px",
+        "edge-margin-mobile": "20px",
+        "gutter": "24px",
+        "section-gap": "120px",
+        "stack-gap-lg": "48px",
+        "stack-gap-md": "24px",
+        "stack-gap-sm": "12px"
+      },
+      "spacingScale": 2,
+      "typography": {
+        "body-lg": {
+          "fontFamily": "Inter",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "letterSpacing": "0.01em",
+          "lineHeight": "1.6"
+        },
+        "body-md": {
+          "fontFamily": "Inter",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "letterSpacing": "0.01em",
+          "lineHeight": "1.6"
+        },
+        "display-lg": {
+          "fontFamily": "Atkinson Hyperlegible Next",
+          "fontSize": "64px",
+          "fontWeight": "700",
+          "letterSpacing": "0.05em",
+          "lineHeight": "1.1"
+        },
+        "headline-lg": {
+          "fontFamily": "Atkinson Hyperlegible Next",
+          "fontSize": "32px",
+          "fontWeight": "600",
+          "letterSpacing": "0.03em",
+          "lineHeight": "1.2"
+        },
+        "headline-lg-mobile": {
+          "fontFamily": "Atkinson Hyperlegible Next",
+          "fontSize": "24px",
+          "fontWeight": "600",
+          "letterSpacing": "0.03em",
+          "lineHeight": "1.2"
+        },
+        "headline-md": {
+          "fontFamily": "Atkinson Hyperlegible Next",
+          "fontSize": "20px",
+          "fontWeight": "500",
+          "letterSpacing": "0.02em",
+          "lineHeight": "1.4"
+        },
+        "label-sm": {
+          "fontFamily": "Lexend",
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "letterSpacing": "0.1em",
+          "lineHeight": "1"
+        }
+      }
+    }
+  },
+  "name": "assets/8b2b1de5691141d1830d6a07a742128f",
+  "version": "4"
+}
